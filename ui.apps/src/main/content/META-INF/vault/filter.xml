@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/chocofac/clientlibs"/>
+    <filter root="/apps/chocofac/components"/>
+    <filter root="/apps/chocofac/i18n"/>
+</workspaceFilter>

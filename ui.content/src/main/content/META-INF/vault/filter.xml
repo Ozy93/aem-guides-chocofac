@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/chocofac" mode="merge"/>
+    <filter root="/content/chocofac" mode="merge"/>
+    <filter root="/content/dam/chocofac/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/chocofac" mode="merge"/>
+</workspaceFilter>

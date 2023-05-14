@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="aem-guides-chocofac.all" />
+        <module name="aem-guides-chocofac.ui.config" />
+        <module name="aem-guides-chocofac.it.tests" />
+        <module name="aem-guides-chocofac.ui.apps" />
+        <module name="aem-guides-chocofac.ui.content" />
+        <module name="aem-guides-chocofac.core" />
+        <module name="aem-guides-chocofac.ui.tests" />
+        <module name="aem-guides-chocofac.ui.apps.structure" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
