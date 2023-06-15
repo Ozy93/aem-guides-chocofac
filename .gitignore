@@ -12,3 +12,5 @@ buildNumber.properties
 ### IntelliJ ###
 .idea/
 *.iml
+.idea/jarRepositories.xml
+.idea/misc.xml
