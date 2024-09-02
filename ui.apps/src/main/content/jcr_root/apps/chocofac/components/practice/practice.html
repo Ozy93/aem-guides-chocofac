@@ -1,0 +1,27 @@
+<div class="practice">
+    <sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html"
+         data-sly-call="${clientlib.all @ categories='chocofac-aempractice'}"/>
+<h1>Practice Component</h1>
+
+<div data-sly-use.prmod="${'com.adobe.aem.guides.chocofac.core.models.AemPracticeModel' @ rAttribute='TestAttribute'}"></div>
+    <h1 data-sly-test="${prmod.authorRunMode}">
+        You're in AUHOR MODE!
+    </h1>
+    <!--<div class="practice__title">Path Entered : </b> ${prmod.image} </b> </div>-->
+    <div data-sly-test="${prmod.authorRunMode &&  prmod.backgroundImage}">
+        <div class="image-component">
+            <img src="${prmod.imagePath @ context='uri'}" alt="Selected Image" />
+        </div>
+    </div>
+    <div class="practice__title">Title Entered:  <i> ${prmod.title} </i>   </div>
+
+        ========================== Navigation Map Elements ================================
+    <div data-sly-list.item="${prmod.navigationItems}">
+        <p> Multi Title  : <b>${item.multititle} </b></p>
+        <p> Multi url : <b>${item.multiurl}</b> </p>
+    </div>
+</div>
+
+
+
+
